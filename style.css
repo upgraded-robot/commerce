@@ -1,0 +1,51 @@
+body { 
+	padding-top: 70px; /* Navbar fixed top necessary padding */
+}
+
+.navbar-brand {
+	padding: 10px 15px; /* overwrite padding for brand image */
+}
+
+.navbar-brand img {
+	max-height: 100%;
+}
+
+.carousel-caption h1 {
+	color: white;
+}
+
+.dl dt, .dl dd {
+	margin-bottom:5px;
+}
+
+.dl dt {
+	float: left;
+	width: 30%;
+	clear: left;
+}
+
+.dl dd {
+	margin-left: 40%; 
+}
+
+.tab-content {
+	padding: 10px;
+}
+
+footer {
+	background-color: #EEE;
+	border-top: #E2E2E2;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+footer div {
+	padding: 1.5em 0; 
+}
+
+@media (min-width: 450px) and (max-width: 767px){
+	.product-card {
+		max-width: 430px;
+		margin: 0 auto;
+	}	
+}
